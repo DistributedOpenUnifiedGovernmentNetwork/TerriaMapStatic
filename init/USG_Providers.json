@@ -11,21 +11,10 @@
           "url" : "http://gisweb.dotd.la.gov/ArcGIS/rest/services/"
         },
         {
-          "layers": "Image",
-          "url": "http://services.ga.gov.au/gis/services/DEM_SRTM_1Second/MapServer/WMSServer",
-          "type": "wms"
-        },
-        {
           "url": "http://gisweb.dotd.la.gov/ArcGIS/rest/services/MapServices/BoatLaunches/MapServer",
           "layers": "BoatLaunches",
           "name": "BoatLaunches",
-          "type": "esri-mapServer",
-          "info": [
-            {
-              "name": "Licence",
-              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-            }
-          ]
+          "type": "esri-mapServer"
         },
         {
           "name" : "DHS-FEMA [Services]",
