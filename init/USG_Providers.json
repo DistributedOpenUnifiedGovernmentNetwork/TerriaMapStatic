@@ -6,37 +6,11 @@
       "isOpen": true,
       "items": [
         {
-          "groupBy": "organization",
-          "minimumMaxScaleDenominator": 10000000000,
-          "filterByWmsGetCapabilities": false,
-          "filterQuery": [ "q=res_format:WMS", "q=res_format:%22Esri%20REST%22" ],
-          "url": "http://catalog.data.gov",
-          "type": "ckan",
-          "name": "Data.gov API v3 Test",
-          "includeCsv": false
-        },
-        {
-          "name" : "Census [TIGER]",
+          "name" : "Louisiana GIS Services",
           "type" : "esri-mapServer-group",
-          "url" : "http://tigerweb.geo.census.gov/ArcGIS/rest/services/"
+          "url" : "http://gisweb.dotd.la.gov/ArcGIS/rest/services/"
         },
-        {
-          "type": "wms-getCapabilities",
-          "url": "http://sedac.ciesin.columbia.edu/geoserver/wms",
-          "dataCustodian": "[NASA Socioeconomic](http://sedac.ciesin.columbia.edu/)",
-          "description": "[Socioeconomic Data and Applications Center (SEDAC)](http://creativecommons.org/licenses/by/3.0/)",
-          "name": "NASA [Socioeconomic Data and Applications Center]"
-        },
-        {
-          "name" : "USDA [Economic Research Agency]",
-          "type" : "esri-mapServer-group",
-          "url" : "http://arcgis-ersarcgism3xl-1157953884.us-east-1.elb.amazonaws.com/arcgis/rest/services/"
-        },
-        {
-          "name" : "DOI-USGS [National Gap Analysis Program]",
-          "type" : "esri-mapServer-group",
-          "url" : "http://gis1.usgs.gov/arcgis/rest/services/"
-        },
+
         {
           "name" : "DHS-FEMA [Services]",
           "type" : "esri-mapServer-group",
