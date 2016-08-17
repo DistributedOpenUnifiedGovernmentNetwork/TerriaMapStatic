@@ -21,7 +21,7 @@
         "supportEmail": "John.Jediny@gsa.gov",
         "brandBarElements": [
             "",
-            "<a target=\"_blank\" href=\"https://github.com/JJediny/TerriaMapStatic\"><img src=\"images/Gov.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+            "<a target=\"_blank\" href=\"https://github.com/DistributedOpenUnifiedGovernmentNetwork/TerriaMapStatic"><img src=\"images/Gov.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
             ""
         ]
     }
